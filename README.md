@@ -1,2 +1,0 @@
-# hafitzsetya.github.io
-Idk
