@@ -1,6 +1,6 @@
 ### My Personal Pages
 
-[https://HafitzSetya.github.io](https://HafitzSetya.github.io)
+[https://hafitzsetya.github.io](https://hafitzstya.github.io)
 
 ### Credits:
 Profile card by Muhammed Erdem (https://codepen.io/JavaScriptJunkie)
