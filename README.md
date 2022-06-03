@@ -1,6 +1,6 @@
 ### My Personal Pages
 
-[https://breakdowns.github.io](https://breakdowns.github.io)
+[https://breakdowns.eu.org](https://breakdowns.eu.org)
 
 ### Credits:
 Profile card by [Muhammed Erdem](https://codepen.io/JavaScriptJunkie)
