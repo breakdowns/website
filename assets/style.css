@@ -202,6 +202,10 @@ a, a:hover {
   background: linear-gradient(45deg, #16202A, #000000);
   box-shadow: 0px 4px 30px rgba(27, 18, 18, 0.7);
 }
+.profile-card-social__item.threads {
+  background: linear-gradient(45deg, #16202A, #000000);
+  box-shadow: 0px 4px 30px rgba(27, 18, 18, 0.7);
+}
 .profile-card-social__item.telegram {
   background: linear-gradient(45deg, #0088cc, #00aced);
   box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.7);
