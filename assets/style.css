@@ -33,7 +33,7 @@ a, a:hover {
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: url(/images/pic.svg);
+  background-image: url(/images/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,7 +78,7 @@ a, a:hover {
   overflow: hidden;
   position: relative;
   z-index: 4;
-  box-shadow: 0px 5px 10px 0px #414345, 0px 0px 0px 7px #414345;
+  box-shadow: 0px 5px 10px 0px #eb3349, 0px 0px 0px 7px rgba(235, 51, 73, 0.6);
 }
 @media screen and (max-width: 576px) {
   .profile-card__img {
@@ -196,9 +196,13 @@ a, a:hover {
 }
 .profile-card-social__item.facebook {
   background: linear-gradient(45deg, #3b5998, #0078d7);
-  box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.5);
+  box-shadow: 0px 4px 30px rgba(43, 98, 169, 0.7);
 }
 .profile-card-social__item.x {
+  background: linear-gradient(45deg, #16202A, #000000);
+  box-shadow: 0px 4px 30px rgba(27, 18, 18, 0.7);
+}
+.profile-card-social__item.threads {
   background: linear-gradient(45deg, #16202A, #000000);
   box-shadow: 0px 4px 30px rgba(27, 18, 18, 0.7);
 }
@@ -208,7 +212,7 @@ a, a:hover {
 }
 .profile-card-social__item.instagram {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-  box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.6);
+  box-shadow: 0px 4px 30px rgba(120, 64, 190, 0.7);
 }
 .profile-card-social__item.behance {
   background: linear-gradient(45deg, #1769ff, #213fca);
@@ -216,23 +220,43 @@ a, a:hover {
 }
 .profile-card-social__item.github {
   background: linear-gradient(45deg, #333333, #626b73);
-  box-shadow: 0px 4px 30px rgba(27, 31, 34, 0.6);
+  box-shadow: 0px 4px 30px rgba(27, 31, 34, 0.7);
 }
 .profile-card-social__item.codepen {
   background: linear-gradient(45deg, #324e63, #414447);
-  box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.6);
+  box-shadow: 0px 4px 30px rgba(55, 75, 90, 0.7);
 }
 .profile-card-social__item.link {
   background: linear-gradient(45deg, #d5135a, #f05924);
-  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.6);
+  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.7);
 }
 .profile-card-social__item.spotify {
   background: linear-gradient(45deg, #1DB954, #1ED760);
-  box-shadow: 0px 4px 30px rgba(29,185, 84, 0.6);
+  box-shadow: 0px 4px 30px rgba(29,185, 84, 0.7);
 }
 .profile-card-social__item.discord {
   background: linear-gradient(45deg, #7289da, #5865f2);
-  box-shadow: 0px 4px 30px rgba(88, 101, 242, 0.6);
+  box-shadow: 0px 4px 30px rgba(88, 101, 242, 0.7);
+}
+.profile-card-social__item.lastfm {
+  background: linear-gradient(45deg, #D51007, #FF0000);
+  box-shadow: 0px 4px 30px rgba(213, 16, 7, 0.7);
+}
+.profile-card-social__item.myanimelist {
+  background: linear-gradient(45deg, #2E51A2, #3b5998);
+  box-shadow: 0px 4px 30px rgba(46, 82, 162, 0.7);
+}
+.profile-card-social__item.tiktok {
+  background: linear-gradient(45deg, #16202A, #000000);
+  box-shadow: 0px 4px 30px rgba(27, 18, 18, 0.7);
+}
+.profile-card-social__item.vk {
+  background: linear-gradient(45deg, #0077FF, #4C75A3);
+  box-shadow: 0px 4px 30px rgba(0, 119, 255, 0.7);
+}
+.profile-card-social__item.reddit {
+  background: linear-gradient(45deg, #FF4500, #FF8717);
+  box-shadow: 0px 4px 30px rgba(255, 69, 0, 0.7);
 }
 .profile-card-social .icon-font {
   display: inline-flex;
