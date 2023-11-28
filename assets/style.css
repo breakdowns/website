@@ -166,6 +166,12 @@ a, a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
+
+@media screen and (min-width: 768px) {
+  .profile-card-social {
+    padding: 35px;
+  }
+}
 .profile-card-social__item {
   display: inline-flex;
   width: 55px;
@@ -257,6 +263,22 @@ a, a:hover {
 .profile-card-social__item.reddit {
   background: linear-gradient(45deg, #FF4500, #FF8717);
   box-shadow: 0px 4px 30px rgba(255, 69, 0, 0.7);
+}
+.profile-card-social__item.mastodon {
+  background: linear-gradient(45deg, #6364FF, #563ACC);
+  box-shadow: 0px 4px 30px rgba(99, 100, 255, 0.7);
+}
+.profile-card-social__item.bluesky {
+  background: linear-gradient(45deg, #1E8AFE, #49AAFB);
+  box-shadow: 0px 4px 30px rgba(135, 206, 235, 0.7);
+}
+.profile-card-social__item.anilist {
+  background: linear-gradient(45deg, #02A9FF, #4281FE);
+  box-shadow: 0px 4px 30px rgba(31, 35, 45, 0.7);
+}
+.profile-card-social__item.youtube {
+  background: linear-gradient(45deg, #d5135a, #f05924);
+  box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.7);
 }
 .profile-card-social .icon-font {
   display: inline-flex;
