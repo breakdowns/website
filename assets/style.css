@@ -262,6 +262,14 @@ a, a:hover {
   background: linear-gradient(45deg, #6364FF, #563ACC);
   box-shadow: 0px 4px 30px rgba(99, 100, 255, 0.7);
 }
+.profile-card-social__item.bluesky {
+  background: linear-gradient(45deg, #1E8AFE, #49AAFB);
+  box-shadow: 0px 4px 30px rgba(135, 206, 235, 0.7);
+}
+.profile-card-social__item.anilist {
+  background: linear-gradient(45deg, #02A9FF, #4281FE);
+  box-shadow: 0px 4px 30px rgba(31, 35, 45, 0.7);
+}
 .profile-card-social .icon-font {
   display: inline-flex;
 }
