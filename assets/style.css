@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
 html {
   position: relative;
-  overflow-x: hidden !important;
 }
 
 * {
@@ -11,6 +10,8 @@ html {
 body {
   font-family: 'Quicksand', sans-serif;
   color: #324e63;
+  margin: 0;
+  padding: 0;
 }
 
 a, a:hover {
@@ -25,23 +26,38 @@ a, a:hover {
   stroke: currentColor;
   fill: currentColor;
 }
+
 .wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  width: 100%;
-  height: auto;
+  height: 100vh;
   min-height: 100vh;
   padding: 50px 20px;
   padding-top: 100px;
   display: flex;
-  background-image: url(/images/background.svg);
+  background-image: url(../images/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
 }
+
 @media screen and (max-width: 768px) {
   .wrapper {
-    height: auto;
+    height: 100vh;
     min-height: 100vh;
     padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 960px) and (max-height: 550px) and (orientation: landscape) {
+  .wrapper {
+    position: relative !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    padding-top: 100px !important;
+    padding-bottom: 60px !important;
   }
 }
 
@@ -130,8 +146,9 @@ a, a:hover {
 }
 .profile-card-loc__icon {
   display: inline-flex;
-  font-size: 27px;
-  margin-right: 10px;
+  font-size: 24px;
+  margin-right: 8px;
+  color: #EB3349;
 }
 .profile-card-inf {
   display: flex;
